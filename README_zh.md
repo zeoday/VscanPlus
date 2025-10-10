@@ -66,6 +66,8 @@ sangfor
 
 - 新增子域名接管漏洞模糊检测功能
 
+- 新增对接ARL、FOFA读取域名的功能
+
 ``
   主要参考了https://github.com/EdOverflow/can-i-take-over-xyz项目中的检测规则，通过对比域名cname解析以及请求返回信息，判断对应域名是否存在子域名接管漏洞。检测完成后，会在当前目录下生成matched_domains.txt文件
 ``
@@ -76,7 +78,7 @@ sangfor
 
 # Warning
 
-- 如需编译生成可执行文件，请下载release中的vcsanplus-main-code.zip文件编译
+- 如需编译生成可执行文件，请下载release中的vcsanplus-main-code.zip或vscanplus-code.zip文件编译
 
 # Reference
 
